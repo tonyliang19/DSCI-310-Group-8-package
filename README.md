@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of group8 is to …
+The goal of group8 is to push the code
 
 ## Installation
 
