@@ -11,7 +11,7 @@
 #' visualize_vars(df, STF,PEG)
 #' visualize_vars(mtcars, mpg, cyl)
 #' visualize_vars(data.frame(x = 1, y =2), x,y)
-visualize_vars <- function(df, x, y, ...) {
+visualize_vars <- function(df, x, y, alpha) {
   if (!is.data.frame(df)) {
     stop("df should be a data frame or data frame extension")
   }
@@ -24,7 +24,7 @@ visualize_vars <- function(df, x, y, ...) {
   ylab <- deparse(substitute(y))
   df |>
     ggplot2::ggplot(ggplot2::aes({{x}}, {{y}})) +
-    ggplot2::geom_point(alpha = ...) +
+    ggplot2::geom_point(alpha = 0.5) +
     ggplot2::labs(x = xlab, y = ylab, title = paste(xlab, "vs",
                                            ylab)) +
     ggplot2::theme(text = ggplot2::element_text(size = 15))
