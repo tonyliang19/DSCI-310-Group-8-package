@@ -4,7 +4,7 @@
 \alias{visualize_vars}
 \title{Visualize a df with two specified variables and an optional alpha value\}
 \usage{
-visualize_vars(df, x, y, alpha)
+visualize_vars(df, x, y, alpha = 0.4)
 }
 \arguments{
 \item{df}{A data frame or extension of it}
@@ -13,7 +13,8 @@ visualize_vars(df, x, y, alpha)
 
 \item{y}{A numeric variable shown on y-axis}
 
-\item{...}{alplha number to specify}
+\item{alplha}{number is default to 0.4. If the viewers want to change anything here,
+you can set alpha as a decimal number in the function.}
 }
 \value{
 ggplot point graph of two variables from same df
@@ -22,7 +23,6 @@ ggplot point graph of two variables from same df
 Visualize a df with two specified variables and an optional alpha value\
 }
 \examples{
-visualize_vars(df, STF,PEG)
 visualize_vars(mtcars, mpg, cyl)
 visualize_vars(data.frame(x = 1, y =2), x,y)
 }
