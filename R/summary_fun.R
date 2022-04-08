@@ -21,6 +21,6 @@ summary_fun <- function(df, fun) {
   } else if (nrow(df) < 1) {
     return(data.frame(mean = numeric(0)))
   }
-  round(purrr::map_df(df, fun, na.rm = TRUE), 1)
+  round(purrr::map_df(df, fun, na.rm = TRUE), 2)
 }
 

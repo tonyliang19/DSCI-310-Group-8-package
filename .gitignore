@@ -9,3 +9,7 @@ R/.ipynb_checkpoints/summary_fun-checkpoint.R
 R/.ipynb_checkpoints/visualize_vars-checkpoint.R
 R/.ipynb_checkpoints/wrangle_data-checkpoint.R
 .ipynb_checkpoints/README-checkpoint.md
+tests/.ipynb_checkpoints/testthat-checkpoint.R
+tests/testthat/.ipynb_checkpoints/test-summary_fun-checkpoint.R
+man/.ipynb_checkpoints/visualize_vars-checkpoint.Rd
+tests/testthat/.ipynb_checkpoints/test-visualize_vars-checkpoint.R

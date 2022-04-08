@@ -4,7 +4,7 @@
 \alias{visualize_vars}
 \title{Visualize a df with two specified variables and an optional alpha value\}
 \usage{
-visualize_vars(df, x, y, ...)
+visualize_vars(df, x, y, alpha)
 }
 \arguments{
 \item{df}{A data frame or extension of it}

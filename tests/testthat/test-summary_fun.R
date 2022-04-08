@@ -3,12 +3,12 @@ df <- mtcars
 empty_df  <- data.frame(x = numeric(0), y = numeric(0))
 empty_df_output <- data.frame(mean = numeric(0))
 cols <- colnames(mtcars)
-mean_output <- data.frame(mpg = 20.1 , cyl = 6.2, disp = 230.7, hp = 146.7,
-                          drat = 3.6, wt = 3.2, qsec = 17.8, vs = 0.4,
-                          am = 0.4, gear = 3.7, carb = 2.8)
-sd_output <- data.frame(mpg = 6 , cyl = 1.8, disp = 123.9, hp = 68.6,
-                          drat = 0.5, wt = 1, qsec = 1.8, vs = 0.5,
-                          am = 0.5, gear = 0.7, carb = 1.6)
+mean_output <- data.frame(mpg = 20.09, cyl = 6.19, disp = 230.72, hp = 146.69,
+                          drat = 3.6, wt = 3.22, qsec = 17.85, vs = 0.44,
+                          am = 0.41, gear = 3.69, carb = 2.81)
+sd_output <- data.frame(mpg = 6.03, cyl = 1.79, disp = 123.94, hp = 68.56,
+                          drat = 0.53, wt = 0.98, qsec = 1.79, vs = 0.5,
+                          am = 0.5, gear = 0.74, carb = 1.62)
 
 
 # Tests
