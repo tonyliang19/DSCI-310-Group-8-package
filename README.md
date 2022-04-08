@@ -44,7 +44,7 @@ Repository\]((<https://archive.ics.uci.edu/ml/datasets/User+Knowledge+Modeling#>
 The analysis report can be found
 [here](https://github.com/DSCI-310/DSCI-310-Group-8/blob/main/doc/student_performance_analysis_report.Rmd#).
 
-## Installation 
+## Installation
 
 You can install the development version of group8 from
 [GitHub](https://github.com/) with:
@@ -54,35 +54,38 @@ You can install the development version of group8 from
 devtools::install_github("DSCI-310/DSCI-310-Group-8-package")
 ```
 
-Attention: The dependencies version have been listed below. In order to
-properly run this project, ensure that you are using the same versions
-when running the project in the Dockerfile.
-
 ## Usage
 
 The DSCI-310-Group-8-package has four functions here,
 
-- num_na : a function that shows whether there is N/A value in the data frame and return to a number which shows how many N/A values in the input.
+-   num_na : a function that shows whether there is N/A value in the
+    data frame and return to a number which shows how many N/A values in
+    the input.
 
-- summary_fun : a function shows a summary statistic for each column in the original input.
+-   summary_fun : a function shows a summary statistic for each column
+    in the original input.
 
-- visualize_vars : a function that test whether ggplot point graph of two variables from same date frame.
+-   visualize_vars : a function that test whether ggplot point graph of
+    two variables from same date frame.
 
-- wrangle_data : a function that test whether contains the necessary variables and if it is then returns to a tidy data frame.
+-   wrangle_data : a function that test whether contains the necessary
+    variables and if it is then returns to a tidy data frame.
 
-
-Attention: The dependencies version have been listed below. In order to properly run this project, ensure that you are using the same versions when running the project in the Dockerfile.
+Attention: The dependencies version have been listed below. In order to
+properly run this project, ensure that you are using the same versions
+when running the project in the Dockerfile.
 
 ## Dependencies
 
-R version 4.1.1, Jupyter and R packages listed in [environment.yml](https://github.com/DSCI-310/DSCI-310-Group-8/blob/main/environment.yml).
-
+R version 4.1.1, Jupyter and R packages listed in
+[environment.yml](https://github.com/DSCI-310/DSCI-310-Group-8/blob/main/environment.yml).
 
 ## Licenses
 
-[DSCI-310-Group-8-package](https://github.com/DSCI-310/DSCI-310-Group-8-package) was created by Isabela Lucas Bruxellas, Tony Liang, Xue Wang, Anam Hira.
+[DSCI-310-Group-8-package](https://github.com/DSCI-310/DSCI-310-Group-8-package)
+was created by Isabela Lucas Bruxellas, Tony Liang, Xue Wang, Anam Hira.
 
-This package is licensed under the MIT License and [Creative Commons Attribution-NonCommerical-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+This package is licensed under the MIT License and [Creative Commons
+Attribution-NonCommerical-NoDerivatives 4.0 International
+License](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:1" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />
-
-
