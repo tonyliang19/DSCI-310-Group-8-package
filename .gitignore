@@ -3,3 +3,8 @@
 .Rdata
 .httr-oauth
 .DS_Store
+.ipynb_checkpoints/README-checkpoint.Rmd
+R/.ipynb_checkpoints/num_na-checkpoint.R
+R/.ipynb_checkpoints/summary_fun-checkpoint.R
+R/.ipynb_checkpoints/visualize_vars-checkpoint.R
+R/.ipynb_checkpoints/wrangle_data-checkpoint.R
