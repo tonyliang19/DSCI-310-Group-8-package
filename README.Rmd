@@ -42,14 +42,26 @@ This package contains the functions necessary for the analysis.
 
 The analysis report can be found [here](https://github.com/DSCI-310/DSCI-310-Group-8/blob/main/doc/student_performance_analysis_report.Rmd#). 
 
-## Usage - How to Run This Project
+## Installation
 
 You can install the development version of group8 from [GitHub](https://github.com/DSCI-310/DSCI-310-Group-8-package) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("tonyliang19/group8")
+devtools::install_github("DSCI-310/DSCI-310-Group-8-package")
 ```
+## Usage
+
+The DSCI-310-Group-8-package has four functions here,
+
+- num_na : a function that shows whether there is N/A value in the data frame and return to a number which shows how many N/A values in the input.
+
+- summary_fun : a function shows a summary statistic for each column in the original input.
+
+- visualize_vars : a function that test whether ggplot point graph of two variables from same date frame.
+
+- wrangle_data : a function that test whether contains the necessary variables and if it is then returns to a tidy data frame.
+
 
 By running the code block above on your R file. 
 
@@ -61,7 +73,15 @@ Attention:
 Needs to used if devtools is not already installed in your local repository. Otherwise, it can be skipped
 
 ## Dependencies
-R version 4.1.1, Jupyter and R packages listed in <code>environment.yml
+R version 4.1.1, Jupyter and R packages listed in [environment.yml](https://github.com/DSCI-310/DSCI-310-Group-8/blob/main/environment.yml).
+
+## Licenses
+
+[DSCI-310-Group-8-package](https://github.com/DSCI-310/DSCI-310-Group-8-package) was created by Isabela Lucas Bruxellas, Tony Liang, Xue Wang, Anam Hira.
+
+This package is licensed under the MIT License and [Creative Commons Attribution-NonCommerical-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:1" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />
+
 
 Attention: In order to properly run this project, ensure that you are using the same versions when running the project in the Dockerfile.
 
