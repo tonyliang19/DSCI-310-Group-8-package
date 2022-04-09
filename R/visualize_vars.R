@@ -1,8 +1,8 @@
-#' Visualize a df with two specified variables and an optional alpha value\
+#' Visualize a df with two specified variables and an optional alpha value
 #' @param df A data frame or extension of it
 #' @param x A numeric variable shown on x-axis
 #' @param y A numeric variable shown on y-axis
-#' @param alplha number is default to 0.4. If the viewers want to change anything here,
+#' @param alpha number is default to 0.4. If the viewers want to change anything here,
 #' you can set alpha as a decimal number in the function.
 #'
 #' @return ggplot point graph of two variables from same df
