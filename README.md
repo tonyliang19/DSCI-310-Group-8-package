@@ -1,6 +1,13 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
+
+# group8
+
+[![R-CMD-check](https://github.com/DSCI-310/DSCI-310-Group-8-Package/workflows/R-CMD-check/badge.svg)](https://github.com/DSCI-310/DSCI-310-Group-8-Package/actions)
+
+[![codecov](https://codecov.io/gh/DSCI-310/DSCI-310-Group-8-Package/branch/main/graph/badge.svg?token=QRIHLUGBLT)](https://codecov.io/gh/DSCI-310/DSCI-310-Group-8-Package)
+
 <!-- badges: end -->
 
 # Predicting Student Performance using Study Time - Package
@@ -60,9 +67,16 @@ The DSCI-310-Group-8-package has four functions here,
 -   wrangle_data : a function that test whether contains the necessary
     variables and if it is then returns to a tidy data frame.
 
-Attention: The dependencies version have been listed below. In order to
-properly run this project, ensure that you are using the same versions
-when running the project in the Dockerfile.
+By running the code block above on your R file.
+
+Attention:
+
+``` r
+# install.packages("devtools")
+```
+
+Needs to used if devtools is not already installed in your local
+repository. Otherwise, it can be skipped
 
 ## Dependencies
 
@@ -78,3 +92,6 @@ This package is licensed under the MIT License and [Creative Commons
 Attribution-NonCommerical-NoDerivatives 4.0 International
 License](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:1" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />
+
+Attention: In order to properly run this project, ensure that you are
+using the same versions when running the project in the Dockerfile.

@@ -14,11 +14,22 @@ knitr::opts_chunk$set(
 ```
 
 <!-- badges: start -->
+
+# group8
+
+
+[![R-CMD-check](https://github.com/DSCI-310/DSCI-310-Group-8-Package/workflows/R-CMD-check/badge.svg)](https://github.com/DSCI-310/DSCI-310-Group-8-Package/actions)
+
+[![codecov](https://codecov.io/gh/DSCI-310/DSCI-310-Group-8-Package/branch/main/graph/badge.svg?token=QRIHLUGBLT)](https://codecov.io/gh/DSCI-310/DSCI-310-Group-8-Package)
+
 <!-- badges: end -->
+
+
 
 # Predicting Student Performance using Study Time - Package
 
 ## Group 8
+
 
 ## Group Members
 
