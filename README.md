@@ -69,6 +69,10 @@ The DSCI-310-Group-8-package has four functions here,
 
 By running the code block above on your R file.
 
+The usage for function references can be found
+[here](https://dsci-310.github.io/DSCI-310-Group-8-package/reference/index.html)
+.
+
 Attention:
 
 ``` r

@@ -48,7 +48,6 @@ The repository with the analysis can be found [here](https://github.com/DSCI-310
 
 This package contains the functions necessary for the analysis.
 
-
 ## Report
 
 The analysis report can be found [here](https://github.com/DSCI-310/DSCI-310-Group-8/blob/main/doc/student_performance_analysis_report.Rmd#). 
@@ -61,6 +60,7 @@ You can install the development version of group8 from [GitHub](https://github.c
 # install.packages("devtools")
 devtools::install_github("DSCI-310/DSCI-310-Group-8-package")
 ```
+
 ## Usage
 
 The DSCI-310-Group-8-package has four functions here,
@@ -75,6 +75,8 @@ The DSCI-310-Group-8-package has four functions here,
 
 
 By running the code block above on your R file. 
+
+The usage for function references can be found [here](https://dsci-310.github.io/DSCI-310-Group-8-package/reference/index.html) .
 
 Attention: 
 
