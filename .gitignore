@@ -16,3 +16,4 @@ tests/testthat/.ipynb_checkpoints/test-visualize_vars-checkpoint.R
 man/visualize_vars.Rd
 man/.ipynb_checkpoints/wrangle_data-checkpoint.Rd
 man/.ipynb_checkpoints/summary_fun-checkpoint.Rd
+docs
